@@ -34,6 +34,6 @@ jobs:
           application_name: python-apps
           environment_name: Pythonapps-env
           version_label: "the-simple-engineer-deployment-${{ steps.format-time.outputs.replaced }}"
-          region: us-east-2
+          region: us-east-1
           deployment_package: deploy.zip
     
